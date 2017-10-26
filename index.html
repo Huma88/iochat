@@ -53,6 +53,7 @@
     </div>
 
     <script>
+            var io = socketIO(server);
             var socket = io.connect();
             var $messageForm = $("#messageForm");
             var $message = $("#message");
